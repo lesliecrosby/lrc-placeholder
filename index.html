@@ -17,6 +17,7 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
       font-family: 'Montserrat', sans-serif;
     }
     body > main {
@@ -37,6 +38,7 @@
       bottom: 20px;
     }
     h1 {
+      max-width: 16.5ch;
       font-weight: 900;
       font-size: 24px;
       line-height: 1.35;
@@ -73,6 +75,7 @@
 
     @media (min-width: 768px) {
       h1 {
+        max-width: 16ch;
         font-size: 40px;
       }
     }
@@ -80,7 +83,7 @@
 </head>
 <body>
   <main>
-    <h1>Leslie Crosby <br>Web Developer <br><em>&amp;</em> Design Liaison</h1>
+    <h1>Leslie Crosby Web Developer <em>&amp;</em> Design Liaison</h1>
   </main>
   <footer>
     <ul>
